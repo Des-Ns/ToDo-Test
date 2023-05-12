@@ -19,7 +19,7 @@ function addNote() {
   
   const doneBtn = document.createElement('button');
   const editBtn = document.createElement('button');
-  const saveBtn = document.createElement('button');
+  // const saveBtn = document.createElement('button');
   doneBtn.classList.add('action-btn');
   doneBtn.innerText = 'DONE';
   editBtn.classList.add('action-btn');
@@ -47,7 +47,7 @@ function addNote() {
   doneBtn.addEventListener('click', function () {
     const index = notesList.findIndex(note => note.id === newNote.id);
     notesList.splice(index, 1);
-    item.remove();
+    uList.children[index].remove();
     console.log(notesList);
   });
 
@@ -55,6 +55,7 @@ function addNote() {
   editBtn.addEventListener('click', function () {
     if (editBtn.innerText === 'EDIT') {
       item.contentEditable = true;
+
       item.focus();
       editBtn.innerText = 'SAVE';
       doneBtn.style.display = 'none';
