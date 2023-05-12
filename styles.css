@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: rgb(57, 71, 72);
+  text-align: left;
+  margin-left: 4rem;
+}
+
+.note {
+  text-align: left;
+  margin-left: 4rem;
+  font-size: x-large;
+  color: rgb(48, 103, 103);
+}
+
+#input-container {
+  width: 60%;
+  margin: auto;
+}
+
+#item-input {
+  width: 70%;
+  padding: 8px;
+  margin-right: 5px;
+  border-radius: 0.3rem;
+}
+
+#add-button {
+  color: white;
+  background-color: rgb(48, 103, 103);
+  display: inline-block;
+  right: 8rem;
+  margin: 1rem 0.5rem;
+  width: 4rem;
+  height: 2.2rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.3rem;
+}
+
+ul {
+  list-style: none;
+  padding: 1rem 5rem;
+}
+
+li {
+  font-size: larger;
+  width: 100%;
+  margin: auto;
+  padding-top: 1rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  word-break: break-all;
+  border: 2px solid gray;
+  border-radius: 0.3rem;
+}
+
+.btn-container {
+  padding-top: 0.5rem;
+  list-style: none;
+  margin: auto;
+  text-align: right;
+}
+
+.action-btn {
+  color: white;
+  background-color: rgb(48, 103, 103);
+  display: inline-block;
+  right: 8rem;
+  margin: 0.2rem 0.5rem;
+  width: 4rem;
+  height: 2.2rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.3rem;
+}
